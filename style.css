@@ -1,0 +1,43 @@
+nav {
+  background-color: none;
+  padding: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li {
+  margin-right: 20px;
+}
+
+.home {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.home h1 {
+  font-size: 36px;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+.pop {
+  color: purple;
+}
+
+.search {
+  margin-right: 0;
+}
+body {
+  text-align: center;
+}
+p {
+  padding-bottom: 75px;
+}
